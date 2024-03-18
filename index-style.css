@@ -1,0 +1,79 @@
+.homelinks{
+    position: relative;
+    width: 100%;
+    height: 75px;
+    background: lime;
+}
+#links{
+    display:flex;
+    width: 90%;
+    margin: auto;
+    padding: 10px 0;
+    align-items: center;
+    justify-content: space-between;
+    font-size: large;
+}
+#links ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 100px;
+}
+#links ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+#links ul li a:hover{
+    color: red;
+}
+.courses{
+    position: relative;
+    width: 15%;
+    height: 600px;
+    background: coral;
+    float: left;
+}
+#courselinks{
+    padding: 60px 0;
+    align-items: center;
+    font-size: large;
+}
+#courselinks ul li{
+    display: block;
+    list-style: none;
+    margin: 40px;
+}
+#courselinks ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+#courselinks ul li a:hover{
+    color: green;
+}
+.books{
+    display: inline-block;
+    height: 600px;
+    width: 1261px;
+    margin-left: 15px;
+    background: orange;
+    border-left: 2px solid black;
+}
+.books img{
+    height: 200px;
+    width:auto;
+    position: relative;
+    top: 50px;
+    ;
+}
+.books h4,h2{
+    text-align: center;
+    margin-top: 70px;
+}
+.madimi-one-regular {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: blue;
+  }
+  

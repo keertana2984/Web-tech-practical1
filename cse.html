@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            text-align: center;
+            background-color: lightblue;
+        }
+        label{
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+        select, option, input, button{
+            background-color: white;
+        }
+        h6{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        h1{
+            color: blue;
+        }
+        #text{
+            font-size: 1.5em;
+        }
+        button{
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Computer Science and Engineering</h1>
+    <div id="text">
+    <label for="dropdown">Text Books</label>
+    <select name="books">
+        <option value="def">Select one</option>
+        <option value="dbms">Database Management Systems</option>
+        <option value-="webdev">Web Development for beginners</option>
+        <option value="algo">Introduction To Algorithms</option>
+        <option value="css">Web Dev with CSS</option>
+        <option value="oops">Object Oriented Programming with C++</option>
+        <option value="SQL">SQL for beginners</option>
+    </select><br>
+    <label for="quantity">Quantity</label>
+    <input type="number"><br>
+    </div>
+    <button type="submit">Submit</button>
+    <h6>Cost of one book is 500INR + Shipping is 100INR</h6>
+</body>
+</html>

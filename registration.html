@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+    background-color: lightblue;
+}
+
+h2{
+    color: blue;
+    text-align: center;
+}
+form{
+    text-align: left;
+    margin-left: 80px;
+    padding: 40px;
+}
+label{
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: inline-block;
+}
+input{
+    margin-bottom: 20px;
+}
+button{
+    cursor: pointer;
+    border-radius: 10%;
+}
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <h2>Registration form</h2>
+    <form id="Registration">
+        <label for="name">First name (Minimum 6 characters)</label>
+        <input type="text" required style="background-color: white"><br>
+
+        <label for="name">Last Name</label>
+        <input type="text" required style="background-color: white"><br>
+
+        <label for="email">Email-Address</label>
+        <input type="email" required style="background-color: white"><br>
+
+        <label for="password">Password</label>
+        <input type="password" required style="background-color: white"><br>
+
+        <label for="mobile">Mobile Number</label>
+        <input type="number" required style="background-color: white"><br>
+
+        <label for="address">Address</label>
+        <textarea name="paragraph-text" rows="6" cols="40" style="background-color: white"></textarea><br>
+
+        <label for="gender">Gender</label>
+        <input type="radio" required value="male">Male
+        <input type="radio" required value="female">female<br>
+
+        <button type="submit" style="background-color: white">Submit</button>
+        <button type="reset" style="background-color: white">Reset</button>
+    </form>
+</body>
+</html>
